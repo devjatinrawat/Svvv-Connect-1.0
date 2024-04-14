@@ -2,9 +2,12 @@ import React from 'react'
 import heroImg from '../assets/heroImg.png'
 import { AiOutlineSearch } from 'react-icons/ai'
 
+
 const HeroSection = () => {
   return (
-    <section className='w-full bg-white py-24 p-4'>
+    <>
+
+    <section className='w-full  py-24 p-4'>
         <div className='md:max-w-[1100px] m-auto grid md:grid-cols-2 max-w-[400px]'>
             <div className='flex flex-col justify-start gap-4'>
                 <p className='py-2 text-4xl text-[#007aff] font-bold'>START TO SUCCESS</p>
@@ -26,6 +29,7 @@ const HeroSection = () => {
             <img src={heroImg} alt="hero" className='md:order-last order-first'/>
         </div>
     </section>
+    </>
   )
 }
 

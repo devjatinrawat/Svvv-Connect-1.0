@@ -1,9 +1,14 @@
 import React from 'react'
 import cta from '../assets/cta.png'
 
+
+
+
+
 const CTA = () => {
   return (
-    <section className='w-full bg-white py-24 p-4 items-center'>
+    <>
+    <section className='w-full  py-24 p-4 items-center'>
         <div className='md:max-w-[1100px] m-auto grid md:grid-cols-2 gap-8 max-w-[400px]'>
             <img src={cta} alt="hero" className='w-[500px] mx-auto'/>
             <div className='flex flex-col justify-start gap-4'>
@@ -17,6 +22,7 @@ const CTA = () => {
             </div>
         </div>
     </section>
+    </>
   )
 }
 
